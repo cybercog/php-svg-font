@@ -8,7 +8,7 @@
 
 ## Introduction
 
-PHP SVG Font files reader and manipulator.
+PHP SVG Font files reader and manipulator. It uses [PHP Unicode](https://github.com/cybercog/php-unicode) package under the hood.
 
 ## Installation
 
