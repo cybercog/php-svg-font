@@ -14,8 +14,7 @@ final class FontList
      */
     private function __construct(
         private readonly array $fontList,
-    ) {
-    }
+    ) {}
 
     /**
      * @param list<Font> $fontList
@@ -38,7 +37,7 @@ final class FontList
 
     public static function ofFile(
         string $filePath,
-        SvgFontFileParserInterface $fontFileParser = null,
+        ?SvgFontFileParserInterface $fontFileParser = null,
     ): self {
         if ($fontFileParser === null) {
             $fontFileParser = new SimpleXmlSvgFontFileParser();
