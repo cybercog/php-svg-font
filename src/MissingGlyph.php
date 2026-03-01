@@ -7,7 +7,6 @@ namespace Cog\SvgFont;
 final class MissingGlyph
 {
     public function __construct(
-        public readonly int | null $horizontalAdvance = null,
-    ) {
-    }
+        public readonly ?int $horizontalAdvance = null,
+    ) {}
 }

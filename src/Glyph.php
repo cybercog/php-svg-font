@@ -10,8 +10,8 @@ final class Glyph
 {
     public function __construct(
         public readonly Character $character,
-        public readonly string | null $name = null,
-        public readonly int | null $horizontalAdvance = null,
+        public readonly ?string $name = null,
+        public readonly ?int $horizontalAdvance = null,
     ) {
         if ($horizontalAdvance !== null && $horizontalAdvance < 0) {
             throw new \InvalidArgumentException(
