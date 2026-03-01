@@ -1,0 +1,48 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+<metadata>
+Created by FontForge 20200511 at Sat Apr 25 16:28:08 2015
+SIL Open Font License OFL
+https://open-foundry.com/fonts/bagnard_sans_regular
+https://github.com/dconstruct/Bagnard
+</metadata>
+<defs>
+<font id="Bagnard" horiz-adv-x="833">
+    <font-face
+        font-family="Bagnard"
+        font-weight="400"
+        font-stretch="normal"
+        units-per-em="1000"
+        panose-1="0 0 0 0 0 0 0 0 0 0"
+        ascent="800"
+        descent="-200"
+        x-height="479"
+        cap-height="718"
+        bbox="-24 -271 1131 969"
+        underline-thickness="0"
+        underline-position="0"
+        unicode-range="U+0020-20AC"
+    />
+    <glyph glyph-name="tilde.uc"/>
+  </font>
+  <font id="Bagnard2" horiz-adv-x="833">
+    <font-face
+        font-family="Bagnard"
+        font-weight="400"
+        font-stretch="normal"
+        units-per-em="1000"
+        panose-1="0 0 0 0 0 0 0 0 0 0"
+        ascent="800"
+        descent="-200"
+        x-height="479"
+        cap-height="718"
+        bbox="-24 -271 1131 969"
+        underline-thickness="0"
+        underline-position="0"
+        unicode-range="U+0020-20AC"
+    />
+    <missing-glyph horiz-adv-x="500" d="M50 -225v975h400v-975h-400zM100 -175h300v875h-300v-875z"/>
+    <glyph glyph-name=".notdef" horiz-adv-x="500"/>
+  </font>
+</defs></svg>
